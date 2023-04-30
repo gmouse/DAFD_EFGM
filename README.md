@@ -16,9 +16,9 @@ Code accompanying the paper "Data Augmentation on Fault Diagnosis of Wind Turbin
 Note: All experiment were excecuted on an Nvidia RTX 3060 Laptop GPU.
 
 ## Main file discription
-* `--glow_feature`: The GAOSD model we build for runing some experiments. It is a class and based on tensorflow 1.15.0.
-* `--random_forest`: To project the dataset into the featurets space of Wavelet packet transform (wpt).
-* `--WPT`:  Model architectures
+* `--glow_feature`: Main code about the Glow model
+* `--random_forest`: Main code abut the RF classifier
+* `--WPT`: Main code of the WPT feature extraction
 
 ## Implementation details
 - Note that users should change the directory to successfully run this code.
